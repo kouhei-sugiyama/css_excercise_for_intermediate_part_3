@@ -35,7 +35,7 @@ body {
  *  - 左にパッディング5pxをセットする
  */
 .date {
-  color:#3498db;
+  color: #3498db;
   font-size: 1.1em;
   padding-left: 5px;
 }
