@@ -3,7 +3,7 @@
  *  - body要素内の全ての要素はbody要素のスタイル定義を継承する。
  *    - CSSの継承と優先度を理解する: https://tsuyopon.xyz/learning-contents/web-dev/css/understand-inheritance-and-priority-of-css/
  */
-body{
+body {
   width: 80%;
   border: 20px solid #bdc3c7;
   font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -21,10 +21,10 @@ body{
  *    - スタイル: dashed
  *    - 色: #2c3e50
  */
-.post{
-   margin-bottom:20px;
-   border-bottom: 1px dashed #2c3e50;
- }
+.post {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #2c3e50;
+}
 
 
 /**
@@ -34,11 +34,11 @@ body{
  *  - 文字サイズ: 1.1em
  *  - 左にパッディング5pxをセットする
  */
-.date{
-   color:#3498db;
-   font-size:1.1em;
-   padding-left:5px;
- }
+.date {
+  color:#3498db;
+  font-size: 1.1em;
+  padding-left: 5px;
+}
 
 
 /**
@@ -50,12 +50,12 @@ body{
  *  - 文字色: #ff0000
  *  - テキストの左右に5pxのマージンを空ける
  */
-.keyword{
-  font-size:1.2em;
+.keyword {
+  font-size: 1.2em;
   text-decoration-line: underline;
-  color:#ff0000;
-  margin:0 5px;
-  font-weight:bold;
+  color: #ff0000;
+  margin: 0 5px;
+  font-weight: bold;
 }
 
 /**
@@ -68,10 +68,10 @@ body{
  *  - 要素の左側にパッディングを5px入れる
  *  - 要素の左側にマージンを5px空ける
  */
-.example{
-  border-left:5px solid #bdc3c7;
-  padding-left:5px;
-  margin-left:5px;
+.example {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+  margin-left: 5px;
 }
 
 /**
@@ -83,12 +83,12 @@ body{
  *  - 文字色: #ffffff
  *  - 上下左右に5pxずつパディングを入れる
  */
-h2{
- font-size:1.8em;
- font-weight:bold;
- background-color:#2c3e50;
- color:#ffffff;
- padding:5px;
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 5px;
 }
 
 /**
@@ -102,11 +102,11 @@ h2{
  *    - 色: #2c3e50
  *  - 要素の左側に5pxのパディングを入れる
  */
-h3{
-  font-size:1.4em;
-  color:#000000;
-  border-bottom:1px solid #2c3e50;
-  padding-left:5px;
+h3 {
+  font-size: 1.4em;
+  color: #000000;
+  border-bottom: 1px solid #2c3e50;
+  padding-left: 5px;
 }
 
 /**
@@ -114,6 +114,6 @@ h3{
  *
  *  - 上下左右に5pxずつパディングを入れる
  */
-p{
-  padding:5px;
+p {
+  padding: 5px;
 }
